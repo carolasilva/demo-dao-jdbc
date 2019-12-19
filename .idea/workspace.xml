@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e297289-f141-46ff-ad0f-af57c42a0556" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyleidea-libs/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJdbc.java" afterDir="false" />
@@ -146,7 +141,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576775928338</updated>
-      <workItem from="1576775931105" duration="6134000" />
+      <workItem from="1576775931105" duration="8162000" />
     </task>
     <task id="LOCAL-00001" summary="Department entity class">
       <created>1576776957221</created>
@@ -197,7 +192,28 @@
       <option name="project" value="LOCAL" />
       <updated>1576782760056</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="findAll implementation">
+      <created>1576782997969</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576782997970</updated>
+    </task>
+    <task id="LOCAL-00009" summary="insert implementation">
+      <created>1576783788271</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576783788271</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update implementation">
+      <created>1576786252762</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1576786252762</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +238,9 @@
     <MESSAGE value="FindById implementation" />
     <MESSAGE value="Reusing instantiation" />
     <MESSAGE value="findByDepartment implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="findByDepartment implementation" />
+    <MESSAGE value="findAll implementation" />
+    <MESSAGE value="insert implementation" />
+    <MESSAGE value="update implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="update implementation" />
   </component>
 </project>
