@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e297289-f141-46ff-ad0f-af57c42a0556" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/model/dao/impl/DepartmentDaoJdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/dao/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/DaoFactory.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +56,13 @@
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="581c621b-a3d7-445c-8095-7a909039fe69" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\carol\OneDrive\Área de Trabalho\demo-dao-jdbc\.idea" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1VD7hBre0U2NOU4TxWQN5HFWO7f" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -141,7 +150,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576775928338</updated>
-      <workItem from="1576775931105" duration="8162000" />
+      <workItem from="1576775931105" duration="8507000" />
+      <workItem from="1577046517148" duration="810000" />
     </task>
     <task id="LOCAL-00001" summary="Department entity class">
       <created>1576776957221</created>
@@ -213,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576786252762</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="delete implementation">
+      <created>1576786662868</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576786662868</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +241,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -241,6 +260,7 @@
     <MESSAGE value="findAll implementation" />
     <MESSAGE value="insert implementation" />
     <MESSAGE value="update implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="update implementation" />
+    <MESSAGE value="delete implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete implementation" />
   </component>
 </project>

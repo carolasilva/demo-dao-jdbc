@@ -1,6 +1,7 @@
 package application;
 
 import model.dao.DaoFactory;
+import model.dao.DepartmentDao;
 import model.dao.SellerDao;
 import model.entities.Department;
 import model.entities.Seller;
@@ -13,6 +14,8 @@ public class Program {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     SellerDao sellerDao = DaoFactory.createSellerDao();
+    DepartmentDao departmentDao = DaoFactory.createDepartmentDao();
+
     System.out.println();
     System.out.println("=== TEST 1: Seller findById ===");
     System.out.println(sellerDao.findById(3));
@@ -54,6 +57,13 @@ public class Program {
     int id = scanner.nextInt();
     sellerDao.deleteById(id);
     System.out.println("Delete completed");
+    System.out.println("===============================");
+
+    System.out.println();
+    System.out.println("=== TEST 7: Department insert ===");
+    department = new Department(null, "Teste");
+    departmentDao.insert(department);
+    System.out.println("Inserted! New id = " + department.getId());
     System.out.println("===============================");
 
     scanner.close();
