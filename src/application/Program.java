@@ -79,6 +79,14 @@ public class Program {
     System.out.println("Update completed");
     System.out.println("===============================");
 
+    System.out.println();
+    System.out.println("=== TEST 10: Department delete ===");
+    System.out.println("Enter id for delete test: ");
+    id = scanner.nextInt();
+    departmentDao.deleteById(id);
+    System.out.println("Delete completed");
+    System.out.println("===============================");
+
     scanner.close();
 
   }
