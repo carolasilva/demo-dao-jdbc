@@ -68,12 +68,12 @@ public class Program {
 
     System.out.println();
     System.out.println("=== TEST 8: Department findById ===");
-    System.out.println(departmentDao.findById(6));
+    System.out.println(departmentDao.findById(7));
     System.out.println("===============================");
 
     System.out.println();
     System.out.println("=== TEST 9: Department update ===");
-    department = departmentDao.findById(6);
+    department = departmentDao.findById(7);
     department.setName("Updated");
     departmentDao.update(department);
     System.out.println("Update completed");
@@ -85,6 +85,13 @@ public class Program {
     id = scanner.nextInt();
     departmentDao.deleteById(id);
     System.out.println("Delete completed");
+    System.out.println("===============================");
+
+    System.out.println();
+    System.out.println("=== TEST 11: Department findAll ===");
+    List<Department> departments = departmentDao.findAll();
+    for (Department d : departments)
+      System.out.println(d);
     System.out.println("===============================");
 
     scanner.close();

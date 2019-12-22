@@ -148,7 +148,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576775928338</updated>
       <workItem from="1576775931105" duration="8507000" />
-      <workItem from="1577046517148" duration="2171000" />
+      <workItem from="1577046517148" duration="2421000" />
     </task>
     <task id="LOCAL-00001" summary="Department entity class">
       <created>1576776957221</created>
@@ -241,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577048585161</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Implemented delete of department">
+      <created>1577048745539</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1577048745539</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +281,7 @@
     <MESSAGE value="delete implementation" />
     <MESSAGE value="Implemented insert of department" />
     <MESSAGE value="Implemented update and findById of department" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented update and findById of department" />
+    <MESSAGE value="Implemented delete of department" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented delete of department" />
   </component>
 </project>
