@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e297289-f141-46ff-ad0f-af57c42a0556" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/model/dao/impl/DepartmentDaoJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/dao/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/DaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/dao/DepartmentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/DepartmentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/dao/impl/DepartmentDaoJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/impl/DepartmentDaoJdbc.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +150,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576775928338</updated>
       <workItem from="1576775931105" duration="8507000" />
-      <workItem from="1577046517148" duration="810000" />
+      <workItem from="1577046517148" duration="1924000" />
     </task>
     <task id="LOCAL-00001" summary="Department entity class">
       <created>1576776957221</created>
@@ -230,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576786662868</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Implemented insert of department">
+      <created>1577047390156</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1577047390156</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +267,7 @@
     <MESSAGE value="insert implementation" />
     <MESSAGE value="update implementation" />
     <MESSAGE value="delete implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete implementation" />
+    <MESSAGE value="Implemented insert of department" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented insert of department" />
   </component>
 </project>

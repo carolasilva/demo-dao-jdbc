@@ -50,7 +50,26 @@ public class DepartmentDaoJdbc implements DepartmentDao {
 
   @Override
   public void update(Department department) {
+    PreparedStatement preparedStatement = null;
+    try {
+      preparedStatement = connection.prepareStatement(
+          "UPDATE department "
+              + "SET Name = ? "
+              + "WHERE Id = ?"
+      );
 
+      preparedStatement.setString(1, department.getName());
+      preparedStatement.setInt(2, department.getId());
+
+      int rowsAffected = preparedStatement.executeUpdate();
+
+      if (rowsAffected < 0)
+        throw new DbException("Unexpected error! No rows affected");
+    } catch (SQLException e) {
+      throw new DbException(e.getMessage());
+    } finally {
+      DB.closeStatement(preparedStatement);
+    }
   }
 
   @Override
@@ -60,11 +79,40 @@ public class DepartmentDaoJdbc implements DepartmentDao {
 
   @Override
   public Department findById(Integer id) {
-    return null;
+    PreparedStatement preparedStatement = null;
+    ResultSet resultSet = null;
+    try {
+      preparedStatement = connection.prepareStatement(
+          "SELECT department.* " +
+              "FROM department " +
+              "WHERE Id = ?"
+      );
+
+      preparedStatement.setInt(1, id);
+      resultSet = preparedStatement.executeQuery();
+
+      if (resultSet.next()) {
+        return instantiateDepartment(resultSet);
+      }
+
+      return null;
+    } catch (SQLException e) {
+      throw new DbException(e.getMessage());
+    } finally {
+      DB.closeStatement(preparedStatement);
+      DB.closeResultSet(resultSet);
+    }
   }
 
   @Override
   public List<Department> findAll() {
     return null;
+  }
+
+  private Department instantiateDepartment(ResultSet resultSet) throws SQLException {
+    Department department = new Department();
+    department.setId(resultSet.getInt("Id"));
+    department.setName(resultSet.getString("Name"));
+    return department;
   }
 }

@@ -66,6 +66,19 @@ public class Program {
     System.out.println("Inserted! New id = " + department.getId());
     System.out.println("===============================");
 
+    System.out.println();
+    System.out.println("=== TEST 8: Department findById ===");
+    System.out.println(departmentDao.findById(6));
+    System.out.println("===============================");
+
+    System.out.println();
+    System.out.println("=== TEST 9: Department update ===");
+    department = departmentDao.findById(6);
+    department.setName("Updated");
+    departmentDao.update(department);
+    System.out.println("Update completed");
+    System.out.println("===============================");
+
     scanner.close();
 
   }
